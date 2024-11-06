@@ -1,24 +1,16 @@
-![Install Dependencies](https://github.com/haobo-yuan/IDS706-5-SQL-Python/actions/workflows/install.yml/badge.svg)
-![Format Code](https://github.com/haobo-yuan/IDS706-5-SQL-Python/actions/workflows/format.yml/badge.svg)
-![Lint Code](https://github.com/haobo-yuan/IDS706-5-SQL-Python/actions/workflows/lint.yml/badge.svg)
-![Run Tests](https://github.com/haobo-yuan/IDS706-5-SQL-Python/actions/workflows/test.yml/badge.svg)
+![Install Dependencies](https://github.com/haobo-yuan/IDS706-9-Cloud-Notebook/actions/workflows/install.yml/badge.svg)
+![Format Code](https://github.com/haobo-yuan/IDS706-9-Cloud-Notebook/actions/workflows/format.yml/badge.svg)
+![Lint Code](https://github.com/haobo-yuan/IDS706-9-Cloud-Notebook/actions/workflows/lint.yml/badge.svg)
+![Run Tests](https://github.com/haobo-yuan/IDS706-9-Cloud-Notebook/actions/workflows/test.yml/badge.svg)
 
-# IDS-706 Data Engineering: Project 5
-This is a IDS-706 week 5 project that tries to explore Python Script interacting with SQL Database.
+# IDS-706 Data Engineering: Project 9
+This is a IDS-706 week 9 project that demonstrates proficiency in setting up and utilizing a cloud-hosted Jupyter Notebook environment, specifically using Google Colab. This includes performing data manipulation tasks on a provided sample dataset.
 
-## Screenshot of successful database operations
+## Google Colab Link
 
-1. Working in Jupyter Notebook, exploring the data in the database, and implementing CRUD operations.
+[Google Colab Link](https://colab.research.google.com/drive/1ySKSRcGWSaAiPpVCOikUpqoHoXwOLkEZ?usp=sharing)
 
-![Screenshot_Notebook](pictures/Succeed_in_implementing_CRUD_in_Jupyter_Notebooks.png)
-
-2. Then seperate the code into different files, including `lib.py`, `main.py`, `test_lib.py` and `test_main.py`, and run them in the terminal.
-
-![Screenshot_main](pictures/Succeed_in_main.png)
-
-![Screenshot_test_lib](pictures/Succeed_in_test_lib.png)
-
-![Screenshot_test_main](pictures/Succeed_in_test_main.png)
+![Screenshot_colab](pictures/GoogleColabSnipaste.png)
 
 ## AAPL Price Statistics (2010-2021)
 
