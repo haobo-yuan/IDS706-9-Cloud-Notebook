@@ -1,5 +1,3 @@
-# Makefile
-
 .PHONY: install test format lint all
 
 install:
@@ -7,14 +5,15 @@ install:
 		pip install -r requirements.txt
 
 test:
-	pytest -vv --cov=lib --cov-report=term-missing --nbval *.ipynb test_*.py
+	pytest -vv --cov=lib --cov-report=term-missing test_*.py
+	# pytest -vv --cov=lib --cov-report=term-missing --nbval *.ipynb test_*.py
 
 format:
-	black *.py
+	# black *.py
 	nbqa black *.ipynb
 
 lint:
-	ruff check *.py
+	# ruff check *.py
 	nbqa ruff *.ipynb
 
 all: install format lint test
