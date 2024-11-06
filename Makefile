@@ -6,7 +6,7 @@ install:
 
 test:
 	# pytest -vv --cov=lib --cov-report=term-missing test_*.py
-	pytest -vv --cov=lib --cov-report=term-missing --nbval *.ipynb
+	# pytest -vv --cov=lib --cov-report=term-missing --nbval *.ipynb
 
 format:
 	# black *.py

@@ -27,5 +27,6 @@ jobs:
       - name: Install dependencies
         run: make install
 
-      - name: Run tests with pytest
-        run: make test
+      # Since we are using Google Colab, having test on .ipynb locally does not make sense
+      # - name: Run tests with pytest
+      #   run: make test
