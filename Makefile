@@ -5,8 +5,8 @@ install:
 		pip install -r requirements.txt
 
 test:
-	pytest -vv --cov=lib --cov-report=term-missing test_*.py
-	# pytest -vv --cov=lib --cov-report=term-missing --nbval *.ipynb test_*.py
+	# pytest -vv --cov=lib --cov-report=term-missing test_*.py
+	pytest -vv --cov=lib --cov-report=term-missing --nbval *.ipynb
 
 format:
 	# black *.py
